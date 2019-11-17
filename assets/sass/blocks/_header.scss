@@ -6,36 +6,52 @@ header {
     // height:100px;
     .logo {
         max-width:50%;
-        padding:20px 10px 10px 10px;
+        padding:10px;
         img {
             max-width:100%;
-            min-width: 150px;
+            min-width: 250px;
         }
     }
-    .menu {
-        display:flex;
-        justify-content: space-around;
+    .menu-primary-nav-container {
         font-size: 1.1rem;
-        a {
-            color:#444;
-            &:hover {
-                color:#B28E6A;
-            }
+        ul {
+            display:flex;
+            justify-content: space-around;
+            padding-inline-start: 0px;
+            a {
+                color:#444;
+                &:hover {
+                    color:#B28E6A;
+                }
+            }                  
         }
     }
 }
-
-#responsive-menu-container li.responsive-menu-item {
-    font-family: 'Abril Fatface', cursive;
+.uagb-post__excerpt {
+    font-size:1rem !important;
+  }
+.wrapper {
+    max-width:1200px;
+    margin:0 auto;
+    padding:15px;
+    height: 100%;
+    border: 1px solid #eee;
+    margin-top: 35px;
+  }
+  
+.at-header {
+    display:block;
+    text-align:center;
+    h2 {
+        font-size: 22px;
+        font-family: 'Playfair Display', serif;
+        font-weight:400;
+    }
 }
-
-button#responsive-menu-button {
-    top:5px !important;
-    right:4% !important;
-}
-
 .header-hr {
     margin-top:0;
+    display:none;
+    
 }
 
 // @media only screen and (min-width: 1044px) {

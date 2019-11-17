@@ -7,13 +7,6 @@
     display:block;
 }
 
-input {
-  height:30px;
-  font-size:14px;
-  border-color:lightgrey;
-  padding-left: 5px;
-}
-
 input, button, a, div, span {
   outline:0;
   &:focus{

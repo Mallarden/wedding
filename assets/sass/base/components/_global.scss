@@ -37,6 +37,7 @@ a {
 }
 
 
+
 // Positioning
 .valign-wrapper {
   display: flex;
@@ -173,9 +174,6 @@ video.responsive-video {
   }
 }
 @media #{$medium-and-down} {
-  .wp-block-spacer {
-    display:none;
-  }
   .pagination {
     width: 100%;
 
