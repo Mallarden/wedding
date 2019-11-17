@@ -30,6 +30,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gulp-imagemin": "*",
-    "imagemin-pngquant": "*"
+    "imagemin-pngquant": "*",
+    "lodash.template": "^4.5.0"
   }
 }
