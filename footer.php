@@ -2,8 +2,8 @@
 <div class="footer">
     <div class="col">
         <div>
-            <p class="copyright-footer">©2019 ARANS KOMMUNIKATION AB<br />
-                All Rights Reserved</p>
+            <p style="letter-spacing:2px;" class="copyright-footer">Anton & Tilda<br /></p>
+            <p class="copyright-footer"> 2020-05-30</p>
         </div>
     </div>
 </div>

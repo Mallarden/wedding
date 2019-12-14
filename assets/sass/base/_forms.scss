@@ -7,6 +7,19 @@
     display:block;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+  max-width:100%;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+  max-width:100% !important;
+}
+
+div.wpforms-container-full {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 input, button, a, div, span {
   outline:0;
   &:focus{

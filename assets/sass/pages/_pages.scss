@@ -7,6 +7,12 @@
       width: 50vw;
     }
 }
+
+.content-wrapper {
+  width:90%;
+  margin:0 auto;
+  max-width:1200px;
+}
 .wrapper__loading{
   width: 100%;
   height: 100%;
@@ -24,7 +30,7 @@
 .loading-animation {
   animation-fill-mode: forwards;   
   animation-delay:3;
-  -webkit-animation-delay:3s; /* Safari and Chrome */
+  -webkit-animation-delay:2s; /* Safari and Chrome */
   -webkit-animation-fill-mode: forwards; 
 }
   @keyframes signup-response{
@@ -38,12 +44,12 @@
 }
 .loading-animation__path{
   stroke: black;
-  stroke-width:1;
+  stroke-width:2;
   fill: white;
   stroke-dasharray:3000;
   stroke-dashoffset: 0;
   animation-fill-mode:both;
-  animation: stroke 5s ease-in both;
+  animation: stroke 3s ease-in both;
 }
 @keyframes stroke {
     from {

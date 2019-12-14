@@ -28,20 +28,13 @@
 
 <body>
 	<div class="wrapper">
+	<div class="at-header">
+			<h2>A | T</h2>
+		</div>
 		<!-- header -->
 		<header class="container clear" role="banner">
 			<div class="d-flex">
 				<!-- logo -->
-				<div class="col">
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/img/AransLogo_clean_brun-1024x350.png"
-								type='image/png' class="" />
-						</a>
-						<!-- /logo -->
-					</div>
-				</div>
-				<div class="col">
 					<!-- nav -->
 					<nav class="nav header-menu fatface" role="navigation">
 						<?php wp_nav_menu(); ?>
