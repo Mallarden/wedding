@@ -2,7 +2,7 @@
 get_header(); ?>
 <div class="primary">
     <div class="osa content-wrapper">
-        <p>Senast 15 april behöver vi veta om du/ni kan komma eller inte. OSA via formuläret här.</p>
+        <p>Senast 1 april behöver vi veta om du/ni kan komma eller inte. OSA via formuläret här.</p>
         <?php echo do_shortcode('[wpforms id="46" title="false" description="false"]') ?>
         <div class="wrapper__loading">
             <div class="loader">
